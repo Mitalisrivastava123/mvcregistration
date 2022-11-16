@@ -9,7 +9,6 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
 <body>
   <!-- section start  -->
   <section class="vh-100">
@@ -26,22 +25,16 @@
               <input type="email" id="form1Example13" class="form-control form-control-lg" name="email" />
               <label class="form-label" for="form1Example13">Email address</label>
             </div>
-
             <!-- Password input -->
             <div class="form-outline mb-4">
               <input type="password" id="form1Example23" class="form-control form-control-lg" name="password" />
               <label class="form-label" for="form1Example23">Password</label>
             </div>
-
             <div class="d-flex justify-content-around align-items-center mb-4">
-     
-             
               <a href="../Views/userregisterform.php"><h3>Register Here </h3></a>
             </div>
-
             <!-- Submit button -->
             <button type="submit" class="btn btn btn-dark btn-lg btn-block">Login Here</button>
-
             <div class="divider d-flex align-items-center my-4">
               <p class="text-center fw-bold mx-3 mb-0 text-muted"></p>
             </div>

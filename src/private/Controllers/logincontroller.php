@@ -18,3 +18,9 @@ else
     window.location.href='../Views/userloginform.php';
     </script>"; 
 }
+// defined logout button 
+echo "<form action = '../Controllers/logoutcontroller.php' method='POST'>
+<button type='submit' name='logout' style='background-color:#17a2b8;padding:10px;color:#fff;margin-top:10px;margin:auto;'>logout User</button></form>";
+
+
+
