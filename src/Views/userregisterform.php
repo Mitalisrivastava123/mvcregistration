@@ -9,15 +9,20 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- defined links -->
+    <?php
+    //include CSS Style Sheet
+    echo "<link rel='stylesheet' type='text/css' href='../css/style.css'/>";
+    ?>
 </head>
 
 <body>
     <!-- container  -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-6">
+             <img src= "https://assets-news.housing.com/news/wp-content/uploads/2018/01/24194015/Goa%E2%80%99s-RERA-website-launched-builders-to-register-projects-by-February-24-2018-FB-1200x628-compressed.jpg">
+            </div>
+            <div class="col-md-6">
                 <div class="card mt-4">
                     <div class="card-header " style="background:#b8d7f2;">
                         <h2 class="text-center">Registration Form </h2>
@@ -63,8 +68,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group s">
-                                <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+                            <div class="form-group mx-auto">
+                                <button type="submit" class="btn btn-primary btn-lg  login-button">Register</button>
                             </div>
                             <div class="login-register text-center">
                                 <a href="../Views/userloginform.php">

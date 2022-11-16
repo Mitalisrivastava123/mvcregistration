@@ -34,16 +34,13 @@
             </div>
 
             <div class="d-flex justify-content-around align-items-center mb-4">
-              <!-- Checkbox -->
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
-                <label class="form-check-label" for="form1Example3"> Remember me </label>
-              </div>
-              <a href="../Views/userregisterform.php">Sign up </a>
+     
+             
+              <a href="../Views/userregisterform.php"><h3>Register Here </h3></a>
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Login Here</button>
+            <button type="submit" class="btn btn btn-dark btn-lg btn-block">Login Here</button>
 
             <div class="divider d-flex align-items-center my-4">
               <p class="text-center fw-bold mx-3 mb-0 text-muted"></p>
